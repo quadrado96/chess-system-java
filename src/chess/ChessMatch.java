@@ -32,6 +32,7 @@ public class ChessMatch {
 		for (char test = 'a'; test <= 'h'; test++) {
 			placeNewPiece(test, 2, new Rook(board, Color.WHITE));
 			placeNewPiece(test, 7, new Rook(board, Color.BLACK));
+			placeNewPiece('d', 1, new King(board, Color.WHITE));
 		}
 		
 	}
